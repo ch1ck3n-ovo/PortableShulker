@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PortableShulker:jar">
+    <output-path>$PROJECT_DIR$/../../1.21.4 Plugin Development/plugins</output-path>
+    <root id="archive" name="PortableShulker.jar">
+      <element id="module-output" name="PortableShulker" />
+    </root>
+  </artifact>
+</component>

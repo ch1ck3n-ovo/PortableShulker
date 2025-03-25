@@ -1,0 +1,22 @@
+name: PortableShulker
+version: '1.0'
+main: tw.ch1ck3n.portableshulker.PortableShulker
+api-version: '1.21'
+load: POSTWORLD
+authors: [ ch1ck3n-ovo ]
+description: A lightweight plugin that makes shulker box portable.
+
+commands:
+  portableshulker:
+    aliases: ["portableshulker", "ps"]
+    usage: "/portableshulker <sub-command>"
+    description: "This plugin's admin only commands"
+    permission: portableshulker.admin
+
+permissions:
+  portableshulker.use:
+    default: true
+  portableshulker.admin:
+    default: op
+    children:
+      - portableshulker.use

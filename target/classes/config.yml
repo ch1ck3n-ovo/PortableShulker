@@ -1,0 +1,15 @@
+# --- PortableShulker Configuration --- #
+
+# Options: LEFT_CLICK_ALL, LEFT_CLICK_AIR, LEFT_CLICK_BLOCK, RIGHT_CLICK_ALL, RIGHT_CLICK_AIR, RIGHT_CLICK_BLOCK
+shulker-use-button: 'RIGHT_CLICK_AIR'
+
+# Options: BOTH, NO_SNEAK, ONLY_SNEAK
+shulker-use-sneak: 'ONLY_SNEAK'
+
+# --- Minecraft Format Codes --- #
+# BLACK = &0, DARK_BLUE = &1, DARK_GREEN = &2, DARK_AQUA = &3, DARK_RED = &4, DARK_PURPLE = &5, GOLD = &6, GRAY = &7
+# DARK_GRAY = &8, BLUE = &9, GREEN = &a, AQUA = &b, RED = &c, LIGHT_PURPLE = &d, YELLOW = &e, WHITE = &f
+# OBFUSCATED = &k, BOLD = &l, STRIKETHROUGH = &m, UNDERLINE = &n, ITALIC = &o, RESET = &r
+message-invalid-setting: '&c&lInvalid setting!'
+message-plugin-reloading: '&cPlugin reloading...'
+message-plugin-reloaded: '&aPlugin reloaded!'

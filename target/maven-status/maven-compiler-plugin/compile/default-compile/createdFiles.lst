@@ -1,0 +1,15 @@
+tw\ch1ck3n\portableshulker\commands\PortableShulkerTabCompleter$1.class
+tw\ch1ck3n\portableshulker\utilities\LogUtil.class
+tw\ch1ck3n\portableshulker\utilities\ShulkerUtil$1.class
+tw\ch1ck3n\portableshulker\utilities\ShulkerData.class
+tw\ch1ck3n\portableshulker\listeners\InventoryClickListener.class
+tw\ch1ck3n\portableshulker\listeners\InventoryCloseListener.class
+tw\ch1ck3n\portableshulker\enums\SneakType.class
+tw\ch1ck3n\portableshulker\utilities\ShulkerUtil.class
+tw\ch1ck3n\portableshulker\commands\PortableShulkerCommandExecutor.class
+tw\ch1ck3n\portableshulker\commands\PortableShulkerTabCompleter.class
+tw\ch1ck3n\portableshulker\listeners\PlayerInteractListener.class
+tw\ch1ck3n\portableshulker\enums\ClickType.class
+tw\ch1ck3n\portableshulker\managers\ShulkerManager.class
+tw\ch1ck3n\portableshulker\utilities\ConfigUtil.class
+tw\ch1ck3n\portableshulker\PortableShulker.class
