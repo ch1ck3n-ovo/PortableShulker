@@ -4,9 +4,7 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.TabCompleter;
 import org.bukkit.entity.Player;
-import org.bukkit.scheduler.BukkitRunnable;
-import tw.ch1ck3n.portableshulker.PortableShulker;
-import tw.ch1ck3n.portableshulker.utilities.LogUtil;
+import org.checkerframework.checker.nullness.qual.NonNull;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,17 +23,13 @@ public class PortableShulkerTabCompleter implements TabCompleter {
 
         if (commandSender instanceof Player) if (!commandSender.hasPermission("portableshulker.admin")) return list;
 
-//        if (commandSender instanceof Player) {
         if (aliases.contains(command.getName())) {
             if (strings.length == 1) {
-                String[] subcommand = {"reload"};
-
-                for (int i = 0; i < subcommand.length; i++) {
-                    if (subcommand[i].startsWith(strings[0])) list.add(subcommand[i]);
-                }
+                String subcommand = "reload";
+                
+                if (subcommand.startsWith(strings[0])) list.add(subcommand);
             }
         }
-//        }
 
         return list;
     }

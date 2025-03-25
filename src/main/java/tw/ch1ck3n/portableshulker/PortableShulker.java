@@ -34,6 +34,12 @@ public final class PortableShulker extends JavaPlugin {
         this.initialize();
     }
 
+    @Override
+    public void onDisable() {
+
+        HandlerList.unregisterAll(this);
+    }
+
     private void initialize() {
 
         LogUtil.log("");
@@ -91,8 +97,6 @@ public final class PortableShulker extends JavaPlugin {
     }
 
     private void registerListeners(PluginManager pluginManager) {
-
-        HandlerList.unregisterAll(this);
 
         LogUtil.log("  > Registering listeners");
 
